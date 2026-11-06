@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quem sou eu?</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="/intermediary_task/images/coffee-cup.png"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons: Biblioteca de ícones bonitos (como a casa, o calendário, etc.) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- O nosso ficheiro de estilos próprio (CSS personalizado) -->
+    <link rel="stylesheet" href="/CSS/style_quemsoueu.css" />
+  </head>
+
+  <!-- O corpo da página. 
+       container: limita a largura máxima para o conteúdo não colar às pontas do ecrã
+       my-5: cria um espaço (margem) generoso em cima e em baixo da página -->
+  <body class="container my-5">
+    <!-- Card 
+         bg-info: fundo azul 
+         p-4: preenchimento interno 
+         p-md-5: preenchimento interno (para ecrãs maiores)
+         rounded-4: arredonda os cantos do card 
+         border: contorno arredondado na borda
+         shadow-sm: sombra leve 
+         mb-4: margem em baixo para criar um espaço entre o rodapé -->
+    <main class="bg-info p-4 p-md-5 rounded-4 border shadow-sm mb-4">
+      <!-- Título principal 
+           mb-4: espaço margin-bottom
+           text-light-emphasis: texto acizentado para constraste
+           fw-bold: texto em negrito -->
+      <h1 class="mb-4 text-light-emphasis fw-bold">Quem sou eu?</h1>
+
+      <!-- Informações no Card 
+           bg-light: fundo claro 
+           border-0: remove as bordas
+           shadow-sm: aplica sombra 
+           mb-4: espaço margin-bottom
+           rounded-3: arredondamento dos cantos -->
+      <div class="card bg-light border-0 shadow-sm mb-4 rounded-3">
+        <div class="card-body p-0">
+          <!-- list-group-flush: cria uma separação entre as linhas do card -->
+          <ul class="list-group list-group-flush rounded-3">
+            <!-- list-group-item: cada linha individual da lista
+                 bg-transparent: deixa o fundo transparente deixando o card branco
+                 text-info: cor do ícone
+                 me-2: (margin-end) margem à direita  -->
+            <li class="list-group-item bg-transparent">
+              <i class="bi bi-person-fill text-info me-2"></i
+              ><b>Nome:</b> Letícia
+            </li>
+            <li class="list-group-item bg-transparent">
+              <i class="bi bi-calendar-event text-info me-2"></i
+              ><b>Idade:</b> 31 anos
+            </li>
+            <li class="list-group-item bg-transparent">
+              <i class="bi bi-mortarboard-fill text-info me-2"></i
+              ><b>Profissão:</b> Estudante de UX/UI Design
+            </li>
+            <li class="list-group-item bg-transparent">
+              <i class="bi bi-heart-fill text-info me-2"></i
+              ><b>Estado civil:</b> Casada há 7 anos
+            </li>
+            <li class="list-group-item bg-transparent">
+              <i class="bi bi-badge-ad-fill text-info me-2"></i
+              ><b>Animal de estimação:</b> Cadela chamada Bianca 🐾
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Parágrafo 1
+           text-light-emphasis: texto de cor acizentada -->
+      <p class="text-light-emphasis">
+        Sou uma pessoa apaixonada por café, livros e sossego, e estou sempre em
+        busca de aprender coisas novas e me desafiar a crescer pessoal e
+        profissionalmentente.
+      </p>
+
+      <!-- Parágrafo 2 -->
+      <p class="text-light-emphasis">
+        Penso demais, faço perguntas e tenho dificuldade em ficar muito tempo
+        sem querer aprender ou criar alguma coisa nova. Acho que isso diz
+        bastante sobre mim.
+      </p>
+
+      <!-- Parágrafo 3 -->
+      <!-- mb-0: sem margem inferior  -->
+      <p class="text-light-emphasis mb-0">
+        Sou uma pessoa curiosa e criativa, interessada em comunicação, design e
+        em descobrir novas formas de transformar ideias em algo concreto. Também
+        gosto de explorar diferentes interesses, porque acredito que nem sempre
+        precisamos de caber numa única definição.
+      </p>
+  
+<hr />
+    <!-- Navegação -->
+        <!-- RODAPÉ 
+        bg-light: fundo claro 
+        border-0: remove bordas
+        shadow-sm: sombra suave
+        rounded-4: cantos arredondados
+        p-3: preenchimento interno
+        mb-5: espaço margin-bottom
+        d-flex: caixa flexível 
+        flex-column: para telemóveis, empilha os botões na vertical
+        flex-sm-row: em ecrãs médios ou maiores,  os botões ficam lado a lado na horizontal
+        justify-content-between: empurra o botão esquerdo para o lado esquerdo e o direito para a ponta direita para justificar o espaço entre eles
+        align-items-center: alinha os elementos ao centro na vertical
+        gap-3: espaço automático entre os botões  -->
+<div class="card bg-light border-0 shadow-sm rounded-4 p-3 mb-5">
+  <div class="card-body d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3">
+    
+   <!-- Botão "Voltar à Homepage"
+             btn: botão interativo
+             btn-outline-secondary: botão com borda cinza 
+             rounded-3: cantos arredondados 
+             px-3: preenchimento horizontal (espaço à esquerda e direita do texto do botão) -->
+    <a href="/intermediary_task/index.html" class="btn btn-outline-secondary rounded-3 px-3">
+      <i class="bi bi-house-door me-1"></i> Voltar à Homepage
+    </a>
+
+    <!-- Próxima Página 
+             btn-dark: botão escuro
+             ms-1: margem menor do lado esquerdo do ícone -->
+    <a href="/intermediary_task/2_deondevim/2-de onde vim.html" class="btn btn-dark rounded-3 px-3">
+      Mas como eu cheguei até aqui? 🎀 <i class="bi bi-arrow-right ms-1"></i>
+    </a>
+
+  </div>
+    </div>
+
+    <!-- JavaScript do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

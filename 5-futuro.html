@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O que eu espero do futuro?</title>
+    <link rel="icon" type="image/png" href="/intermediary_task/images/clock.png" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/CSS/style_quemsoueu.css" />
+  </head>
+  
+  
+    <h1 id="Topo da Página" class="display-6 fw-bold mb-4">O que eu espero do futuro?</h1>
+
+    <p class="fs-5 mb-3">
+      Espero me tornar uma profissional de UX/UI Design, trabalhar em projetos
+      desafiadores e contribuir para a criação de experiências digitais
+      significativas e acessíveis para todos os usuários.
+    </p>
+    <p class="fs-5 mb-4">
+      Também espero continuar a aprender e a crescer como pessoa, explorando
+      novos interesses e descobrindo novas formas de me expressar e de me
+      conectar com o mundo ao meu redor.
+    </p>
+    
+    <h2 class="h4 fw-bold mb-3">E você?</h2>
+    
+    <div class="mb-4">
+      <p class="fs-5 text-secondary">
+        Se chegou até aqui, já sabe algumas coisas sobre mim. Agora quero saber um pouco sobre você!
+      </p>
+    </div> 
+
+    <!--Formulário de Contacto
+      fieldset: agrupa o formulário 
+      mb-3: espaço vertical em baixo de cada campo
+      label: Texto da pergunta acima do campo de escrita
+      form-label fw-semibold: Texto da pergunta seminegrito
+      form-control: o campo de texto ocupa a largura toda 
+      placeholder: Texto de exemplo 
+      type="color": seletor de cores
+      type="datetime-local":calendário para escolher data e hora-->
+    <fieldset class="border p-4 rounded-4 bg-light shadow-sm mb-4">
+      <form action="/intermediary_task/resposta_form/connected.html" method="get">
+        
+        <div class="mb-3">
+          <label for="nome" class="form-label fw-semibold">Como você gosta de ser chamado(a)?</label>
+          <input type="text" id="nome" class="form-control" placeholder="Nome" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="contacto" class="form-label fw-semibold">Como eu posso te encontrar?</label>
+          <input type="text" id="contacto" class="form-control" placeholder="Contacto" />
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label fw-semibold">Qual o seu email?</label>
+          <input type="email" id="email" class="form-control" placeholder="Email" />
+        </div>
+
+        <div class="mb-3">
+          <label for="cor" class="form-label fw-semibold">Qual a sua cor favorita?</label><br />
+          <input type="color" id="cor" name="cor" value="#000000" class="form-control form-control-color" />
+        </div>
+
+        <div class="mb-3">
+          <label for="data" class="form-label fw-semibold">Insira a sua idade / data</label>
+          <input type="datetime-local" id="data" class="form-control" placeholder="Data" />
+        </div>
+         
+        <h4 class="h6 fw-bold mt-4 mb-2">Temos algum interesse em comum?</h4>
+        <div class="mb-3">
+          <div class="form-check"><input class="form-check-input" type="radio" name="interesse" id="Design" value="Design"><label class="form-check-label" for="Design">Design</label></div>
+          <div class="form-check"><input class="form-check-input" type="radio" name="interesse" id="Viagens" value="Viagens"><label class="form-check-label" for="Viagens">Viagens</label></div>
+          <div class="form-check"><input class="form-check-input" type="radio" name="interesse" id="Natureza" value="Natureza"><label class="form-check-label" for="Natureza">Natureza</label></div>
+          <div class="form-check"><input class="form-check-input" type="radio" name="interesse" id="Filmes" value="Filmes"><label class="form-check-label" for="Filmes">Filmes e séries</label></div>
+          <div class="form-check"><input class="form-check-input" type="radio" name="interesse" id="Livros" value="Livros"><label class="form-check-label" for="Livros">Livros</label></div>
+          <div class="form-check"><input class="form-check-input" type="radio" name="interesse" id="Aprender" value="Aprender"><label class="form-check-label" for="Aprender">Aprender coisas novas</label></div>
+          <div class="form-check"><input class="form-check-input" type="radio" name="interesse" id="Outra" value="Outra"><label class="form-check-label" for="Outra">Outra coisa</label></div>
+        </div>
+
+        <h4 class="h6 fw-bold mt-4 mb-2">O que te trouxe até aqui?</h4>
+        <div class="mb-4">
+          <div class="form-check"><input class="form-check-input" type="checkbox" id="Curiosidade" value="Curiosidade"><label class="form-check-label" for="Curiosidade">Curiosidade</label></div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" id="Formacao" value="Formação"><label class="form-check-label" for="Formacao">Formação</label></div> 
+          <div class="form-check"><input class="form-check-input" type="checkbox" id="Lorem" value="Lorem"><label class="form-check-label" for="Lorem">O misterioso caso do Lorem Ipsum</label></div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" id="OutraRazao" value="Outra razão"><label class="form-check-label" for="OutraRazao">Outra razão</label></div>
+        </div>
+
+        <button type="submit" class="btn btn-dark px-10 py-2 rounded-3">Enviar ! (ou não)</button>
+      </form>
+    </fieldset>
+    <!--.Formulário de Contacto-->
+
+    <!-- Navegação -->
+        <!-- RODAPÉ 
+         bg-light: fundo claro 
+         border-0: remove bordas
+         shadow-sm: sombra suave
+         rounded-4: cantos arredondados
+         p-3: preenchimento interno 
+         mb-5: espaço margin-bottom -->
+    <div class="card bg-light border-0 shadow-sm rounded-4 p-3 mx-4 my-5">
+      <div class="card-body d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3">
+        
+        <!-- Botão "Voltar à Homepage"
+             btn: botão interativo
+             btn-outline-secondary: botão com borda cinza 
+             rounded-3: cantos arredondados 
+             px-3: preenchimento horizontal (espaço à esquerda e direita do texto do botão) -->
+        <a href="/intermediary_task/index.html" class="btn btn-outline-secondary rounded-3 px-3">
+          <i class="bi bi-house-door me-1"></i> Voltar à Homepage
+        </a>
+
+        <!-- Voltar ao Topo 
+            btn btn-dark: botão preto 
+            rounded-3: Cantos arredondados
+            px-3: Espaço nas laterais do texto 
+            ms-1: espaço à esquerda do ícone da seta -->
+         
+        <a href="#Topo da Página" class="btn btn-dark rounded-3 px-3">
+          Voltar ao Topo <i class="bi bi-arrow-up ms-1"></i>
+        </a> 
+
+      </div>
+    </div>
+
+    <!-- JavaScript do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
