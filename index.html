@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quem é a Letícia?</title>
+    <link rel="icon" type="image/png" href="images/hello.png" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+
+    <!-- Icones -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Icones -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/style_quemsoueu.css" />
+    <!-- CSS -->
+  </head>
+
+  <!-- Para garantir que o corpo ocupa pelo menos 100% da altura do ecrã com jum layout flexível -->
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Para garantir que o corpo ocupa pelo menos 100% da altura do ecrã com jum layout flexível -->
+
+    <!-- Card 
+    container: largura máxima lim e página centralizada
+    my-5: margem vertical proporcional (em cima e em baixo)
+    bg-info: fundo azul
+    p-4: preenchimento interno (padding)
+    rounded-4: arredonda bem os cantos do cartão
+    border shadow-sm: remove a borda padrão e aplica uma sombra suave -->
+    <main class="container my-5 bg-info p-4 rounded-4 border shadow-sm">
+      <div class="p-4">
+        <!-- Título Principal 
+             display-5: tamanho H1 (título grande)
+             fw-bold: texto em negrito
+             text-light-emphasis: cor de texto de cor clara para ficar legível sobre fundo colorido
+             mb-4: margem inferior (margin-bottom) -->
+        <h1 class="display-5 fw-bold text-light-emphasis mb-4">
+          Olá, seja bem-vind@!
+        </h1>
+
+        <!-- Imagem centralizada com margem -->
+        <div class="courage mb-3 text-center">
+          <img
+            width="200"
+            height="300"
+            src="images/courage.png"
+            alt="Courage the Cowardly Dog"
+          />
+        </div>
+        <!-- Imagem centralizada com margem -->
+
+        <!-- Subtítulo do conteúdo 
+         fw-bold: texto em negrito
+         text-light-emphasis: cor de texto de cor clara para ficar legível sobre fundo colorido
+         mb-3: margem inferior (margin-bottom)-->
+        <hr />
+        <h3 class="fw-bold text-light-emphasis mb-3">
+          Adeus, <i>Lorem Ipsum</i>. Este espaço já foi ocupado*
+        </h3>
+
+        <!-- Parágrafo 1
+         tamanho de fonte standard (fs-6)
+         text-light-emphasis: cor de texto de cor clara para ficar legível sobre fundo colorido
+         mb-3: margem inferior (margin-bottom)-->
+        <p class="fs-6 text-light-emphasis mb-3">
+          Lorem ipsum costuma aparecer quando ainda não sabemos o que colocar
+          num espaço. Mas, como o nome indica, é apenas um texto de
+          preenchimento. Não tem qualquer significado.
+        </p>
+        <p class="fs-6 text-light-emphasis mb-4">
+          Neste caso, eu já sei: algumas coisas sobre mim, os lugares por onde
+          passei, aquilo de que gosto e o que tenho vindo a descobrir pelo
+          caminho. Portanto, está na hora de substituir o Lorem ipsum por algo
+          um pouco mais interessante.
+        </p>
+
+        <!-- [CONTAINER DA TABELA ]
+             table-responsive: permite que a tabela seja exibida horizontalmente em telemóveis sem mudar
+             o layout -->
+
+        <div class="table-responsive mb-4">
+          <!-- table: aplica os estilos base do Bootstrap/CSS para tabelas
+               table-bordered: adiciona bordas 
+               text-center: centraliza todo o texto
+               align-middle: alinha verticalmente ao centro
+               bg-light: fundo claro para contrastar com o card azul
+               rounded-3 overflow-hidden: arredondar os cantos da tabela  -->
+          <table
+            class="table table-bordered text-center align-middle bg-light rounded-3 overflow-hidden"
+          >
+            <thead class="table-info">
+              <tr>
+                <th>Prazer, Letícia</th>
+                <th>Por onde já passei e</th>
+                <th>O que me prende a atenção</th>
+                <th>As minhas referências</th>
+                <th>O que ainda quero descobrir</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a
+                    href="/intermediary_task/1_quemsoueu/1-quem sou eu.html"
+                    target="_blank"
+                    class="text-decoration-none"
+                    >Quem sou eu?</a
+                  >
+                  🖐
+                </td>
+                <td>
+                  <a
+                    href="/intermediary_task/2_deondevim/2-de onde vim.html"
+                    target="_blank"
+                    class="text-decoration-none"
+                    >De onde vim?</a
+                  >
+                  🌍
+                </td>
+                <td>
+                  <a
+                    href="/intermediary_task/3_doqueeugosto/3-o que gosto.html"
+                    target="_blank"
+                    class="text-decoration-none"
+                    >O que eu gosto de fazer?</a
+                  >
+                  ❤
+                </td>
+                <td>
+                  <a
+                    href="/intermediary_task/4_oquemeinspira/4-me inspira.html"
+                    target="_blank"
+                    class="text-decoration-none"
+                    >O que me inspira?</a
+                  >
+                  💡
+                </td>
+                <td>
+                  <a
+                    href="/intermediary_task/5_futuro/5-futuro.html"
+                    target="_blank"
+                    class="text-decoration-none"
+                    >O que eu espero do futuro?</a
+                  >
+                  👩‍💻
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Nota de rodapé (em itálico e com cor cinza) -->
+        <h5 class="small text-muted fst-italic mb-3">
+          *Esta página é uma pequena tentativa de organizar tudo isso num só
+          lugar. Sem lorem ipsum. Prometo.
+        </h5>
+        <!-- Nota de rodapé (em itálico e com cor cinza) -->
+
+        <div class="hello text-right">
+          <img width="100" height="100" src="images/hello.png" alt="hello" />
+        </div>
+      </div>
+    </main>
+
+    <!-- [JavaScript do Bootstrap] -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
